@@ -109,8 +109,6 @@ body {
   }
 }
 
-/* Estilos del index*/
-
 /*Estilos de aboutus*/
 .main__about {
   grid-area: main;
@@ -196,6 +194,7 @@ body {
 }
 
 /*Estilos de contactus*/
+/*
 .header-contact {
   grid-area: header;
 }
@@ -375,7 +374,7 @@ body {
     height: 3rem;
   }
 }
-
+*/
 /*Estilos de faq*/
 .header-faq {
   grid-area: header;
@@ -617,177 +616,12 @@ body {
   }
 }
 /*Estilos de signin*/
-.header-signin {
-  grid-area: header;
-}
-
-.main-sig {
-  grid-area: main;
-  font-family: "Noto Sans", sans-serif;
-  text-align: justify;
-  font-size: 0.8rem;
-  margin: 0.5rem;
-  padding: 0.5rem;
-}
-.titulo__signin {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 2rem;
-  text-align: center;
-  padding: 0.5rem;
-  margin: 0.5rem;
-}
-
-.form__signin {
-  font-family: "Noto Sans", sans-serif;
-}
-
-.form__signin fieldset {
+.cont_form {
+  border-style: groove;
+  border-color: black;
   background-color: rgb(2, 2, 51);
-  border-color: white;
-  margin: 0.5rem;
-  padding: 0.5rem;
 }
 
-.form__signin legend {
-  margin: 0.5rem;
-  padding: 0.5rem;
-  font-size: 1rem;
-  color: white;
-  border-color: white;
-  text-align: center;
-}
-
-.form__signin label {
-  margin: 0.5rem;
-  padding: 0.5rem 0 0 0;
-  font-size: 0.8rem;
-  color: white;
-  width: 100%;
-}
-
-.form__signin input {
-  font-family: "Noto Sans", sans-serif;
-  height: 1rem;
-  border-color: white;
-}
-
-.buttons {
-  height: 1.5rem;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.buttons input {
-  font-size: 0.8rem;
-  height: 1.5rem;
-}
-
-@media screen and (min-width: 320px) {
-  .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .row2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-  .column {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .form__contact label {
-    align-items: flex-start;
-  }
-
-  .buttons {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  .buttons input {
-    background-color: white;
-    border-color: black;
-  }
-
-  .acepta {
-    color: white;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .titulo__signin {
-    font-size: 3rem;
-    padding: 0.8rem;
-    margin: 0.8rem;
-    animation-name: titulo_animado;
-    animation-duration: 3s;
-    animation-delay: 2s;
-    animation-iteration-count: 1;
-  }
-  .form__signin fieldset {
-    margin: 0.8rem;
-    padding: 0.8rem;
-  }
-  .form__signin legend {
-    margin: 0.8rem;
-    padding: 0.8rem;
-    font-size: 1.2rem;
-  }
-  .form__signin label {
-    margin: 0.8rem;
-    padding: 0.8rem 0 0 0;
-    font-size: 1rems;
-  }
-  .form__signin input {
-    height: 1.5rem;
-    transition: all 2s;
-  }
-  .form__signin input:focus {
-    transform: scale(1.2);
-    border: 2px solid black;
-    font-size: 1.4rem;
-  }
-  .buttons input {
-    height: 2rem;
-    transition: all 1s;
-  }
-  .buttons input:hover {
-    background-color: tomato;
-    border-radius: 10%;
-    font-weight: bold;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .titulo__signin {
-    font-size: 4rem;
-    padding: 1rem;
-    margin: 1rem;
-  }
-  .form__signin fieldset {
-    margin: 1rem;
-    padding: 1rem;
-  }
-  .form__signin legend {
-    margin: 1rem;
-    padding: 1rem;
-    font-size: 1.4rem;
-  }
-  .form__signin label {
-    margin: 1rem;
-    padding: 1rem 0 0 0;
-    font-size: 1.3rems;
-  }
-  .form__signin input {
-    height: 2rem;
-  }
-  .buttons input {
-    height: 3rem;
-  }
+.cont_form label {
+  color: bisque;
 }
