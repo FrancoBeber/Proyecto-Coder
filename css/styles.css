@@ -15,6 +15,27 @@ body {
 }
 
 /* Estilos de la nav*/
+.fa-brands {
+  font-size: 3rem;
+  color: bisque;
+}
+.fa-brands:hover {
+  color: red;
+}
+
+.color_navbar {
+  background-color: rgb(2, 2, 51);
+}
+
+.color_item {
+  color: bisque;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+/*
 .navbar {
   grid-area: navbar;
   background-color: rgb(2, 2, 51);
@@ -97,7 +118,6 @@ body {
 
   .navbar__links a {
     text-decoration: none;
-    /* color: white; */
     color: bisque;
     font-size: 1rem;
     font-family: "Noto Sans", sans-serif;
@@ -140,8 +160,10 @@ body {
     font-size: 3rem;
   }
 }
+*/
 
 /* Estilos del footer*/
+/*
 .foot {
   grid-area: footer;
   background-color: rgb(2, 2, 51);
@@ -198,6 +220,7 @@ body {
     height: 3rem;
   }
 }
+*/
 /* Estilos del index*/
 .grid-container {
   text-align: center;
