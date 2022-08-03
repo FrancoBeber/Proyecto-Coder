@@ -52,62 +52,6 @@ body {
 }
 
 /*Estilos del footer*/
-.foot {
-  grid-area: footer;
-  background-color: rgb(2, 2, 51);
-}
-.foot img {
-  height: 2rem;
-  width: 2rem;
-  transition: all 2s;
-}
-
-.foot p {
-  font-family: "Noto Sans", sans-serif;
-  color: white;
-  font-size: 1rem;
-}
-
-@media screen and (min-width: 768px) {
-  .foot {
-    background-position: center center;
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    background-image: linear-gradient(
-      to top,
-      white,
-      rgb(2, 2, 51) 50%,
-      rgb(2, 2, 51)
-    );
-  }
-
-  .foot p {
-    display: inline-block;
-    font-size: 1.2rem;
-    color: bisque;
-  }
-
-  .foot img:hover {
-    width: 60px;
-    height: 60px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .foot p {
-    font-size: 2rem;
-  }
-
-  .foot img {
-    margin: 0 1rem;
-    padding: 0;
-    width: 3rem;
-    height: 3rem;
-  }
-}
 
 /**/
 .cont_foot {
@@ -148,5 +92,15 @@ body {
   font-size: 4rem;
 }
 
-/*Estilos de contactus*/
+/*Estilos de contactus y signin*/
+.cont_form {
+  border-style: groove;
+  border-color: black;
+  background-color: rgb(2, 2, 51);
+}
+
+.cont_form label {
+  color: bisque;
+}
+
 /*Usa los mismos que signin*/
