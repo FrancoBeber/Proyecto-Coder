@@ -101,10 +101,11 @@ body {
     color: bisque;
     font-size: 1rem;
     font-family: "Noto Sans", sans-serif;
-    transition: all 2s;
+    transition: all 1s;
   }
   .navbar__links a:hover {
-    text-decoration: underline bisque;
+    text-decoration: underline red;
+    color: red;
   }
   .navbar__links li:hover {
     transform: scale(1.2);
@@ -644,6 +645,17 @@ body {
     font-size: 1.3rem;
   }
 }
+/*Estilos de contactus y signin*/
+.cont_form {
+  border-style: groove;
+  border-color: black;
+  background-color: rgb(2, 2, 51);
+}
+
+.cont_form label {
+  color: bisque;
+}
+
 /*Estilos de products*/
 .header-products {
   grid-area: header;

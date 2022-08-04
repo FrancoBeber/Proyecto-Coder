@@ -9,6 +9,13 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
       rel="stylesheet"
     />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/styles.css" />
     <script
       src="https://kit.fontawesome.com/699d86a735.js"
@@ -36,69 +43,75 @@
     </header>
 
     <!-- Fin Header --------->
+    <!-- Fin Header --------->
     <main class="main-sig">
       <!-- Titulo principal --------->
-      <h1 class="titulo__signin">Crear una cuenta nueva</h1>
+      <div class="container-fluid text-center p-3">
+        <h1 class="titulo__signin">Crear una cuenta nueva</h1>
+      </div>
       <!-- Fin titulo principal --------->
 
       <!-- Formulario de registro -->
-      <form action="" class="form__signin">
-        <fieldset>
-          <!-- Campos a completar -->
-          <div>
-            <legend>Ingrese sus datos</legend>
-            <div class="row">
-              <div class="column">
-                <label for="username">Nombre de Usuario:</label>
-                <input type="text" name="username" id="username" />
-              </div>
-              <div class="column">
-                <label for="email">Email:</label>
-                <input type="text" name="email" id="email" />
-              </div>
-            </div>
-            <div class="row">
-              <div class="column">
-                <label for="first_name">Apellido:</label>
-                <input type="text" name="first_name" id="first_name" />
-              </div>
-              <div class="column">
-                <label for="last_name">Nombre:</label>
-                <input type="text" name="last_name" id="last_name" />
-              </div>
-            </div>
-            <div class="row">
-              <div class="column">
-                <label for="password">Contraseña:</label>
-                <input type="text" name="password" id="password" />
-              </div>
-              <div class="column">
-                <label for="confirm_password">Confirmar Contraseña:</label>
-                <input
-                  type="text"
-                  name="confirm_password"
-                  id="confirm_password"
-                />
-              </div>
-            </div>
-            <!-- Fin campos a completar -->
-            <div class="row">
-              <div class="column">
-                <label for="acepta_terminos"
-                  >Acepta los terminos y condiciones</label
-                >
-                <input type="checkbox" name="acepta" value="1" />
-              </div>
-            </div>
-          </div>
-          <!-- Botones -->
-          <div class="buttons">
-            <input type="submit" value="Registrarse" />
-            <input type="reset" value="Limpiar valores" />
-          </div>
-          <!-- Fin botones -->
-        </fieldset>
-      </form>
+      <div class="container cont_form p-3">
+        <div class="mb-3">
+          <label for="username" class="form-label">Nombre de usuario</label>
+          <input
+            type="text"
+            class="form-control"
+            name="username"
+            id="username"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Direccion de correo</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="apellido" class="form-label">Apellido</label>
+          <input
+            type="text"
+            class="form-control"
+            name="apellido"
+            id="apellido"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" name="nombre" id="nombre" />
+        </div>
+
+        <div class="mb-3">
+          <label for="contraseña" class="form-label">contraseña</label>
+          <input
+            type="password"
+            class="form-control"
+            name="contraseña"
+            id="contraseña"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="confcontraseña" class="form-label"
+            >Confirmar contraseña</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            name="confcontraseña"
+            id="confcontraseña"
+          />
+        </div>
+      </div>
       <!-- Fin formulario de registro -->
     </main>
     <!-- Inicio footer -->
@@ -125,5 +138,11 @@
       </div>
     </footer>
     <!-- Fin footer -->
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
