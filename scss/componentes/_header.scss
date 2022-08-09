@@ -1,0 +1,38 @@
+.fa-brands {
+  font-size: 3rem;
+  color: bisque;
+  transition: 0.5s;
+
+  &:hover {
+    color: red;
+  }
+}
+
+.navbar {
+  .navbar-expand-lg {
+    .color_navbar {
+      background-color: rgb(2, 2, 51);
+    }
+  }
+
+  .nav-link {
+    .color_item {
+      color: bisque;
+    }
+
+    &:hover {
+      color: red;
+      text-decoration: underline red;
+    }
+  }
+
+  .collapse {
+    .navbar-collapse {
+      flex-grow: 0;
+    }
+  }
+
+  .navbar-toggler {
+    background-color: bisque;
+  }
+}

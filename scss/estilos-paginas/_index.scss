@@ -1,0 +1,109 @@
+.grid-container {
+  text-align: center;
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+    "header"
+    "navbar"
+    "main"
+    "footer";
+  grid-template-rows: auto auto 1fr auto;
+  height: 100vh;
+
+  .header-index {
+    grid-area: header;
+  }
+
+  .mainIndex {
+    grid-area: main;
+
+    img {
+      width: 25rem;
+      height: 25rem;
+    }
+
+    p {
+      font-size: 0.8rem;
+      font-family: "Noto Sans", sans-serif;
+      margin: 0.3rem;
+      padding: 0.3rem;
+    }
+
+    img {
+      margin: 0.5rem;
+      padding: 0.5rem;
+      width: 80%;
+      height: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .grid-container {
+    text-align: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-areas:
+      "header header"
+      "navbar navbar"
+      "main main"
+      "footer footer";
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: auto auto;
+    height: 100vh;
+    /* background: linear-gradient(45deg, red, blue); */
+
+    .mainIndex {
+      background-color: white;
+      margin: 0;
+      padding: 0;
+      /* background: linear-gradient(45deg, red, blue); */
+
+      h1 {
+        text-align: center;
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 3rem;
+        font-family: "Noto Sans", sans-serif;
+        animation-name: titulo_animado;
+        animation-duration: 3s;
+        animation-delay: 2s;
+        animation-iteration-count: 1;
+      }
+
+      p {
+        font-size: 1rem;
+        font-family: "Noto Sans", sans-serif;
+        margin: 0.4rem;
+        padding: 0.4rem;
+      }
+
+      div {
+        text-align: center;
+      }
+
+      img {
+        margin: 1rem;
+        padding: 1rem;
+        width: 80%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grid-container {
+    .mainIndex {
+      h1 {
+        font-size: 4rem;
+      }
+
+      p {
+        font-size: 1.3rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+      }
+    }
+  }
+}
