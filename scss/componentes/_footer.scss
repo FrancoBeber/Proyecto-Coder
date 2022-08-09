@@ -1,6 +1,6 @@
 .foot {
   grid-area: footer;
-  background-color: rgb(2, 2, 51);
+  background-color: $color-principal;
 
   img {
     height: 2rem;
@@ -26,14 +26,14 @@
     background-image: linear-gradient(
       to top,
       white,
-      rgb(2, 2, 51) 50%,
-      rgb(2, 2, 51)
+      $color-principal 50%,
+      $color-principal
     );
 
     p {
       display: inline-block;
       font-size: 1.2rem;
-      color: bisque;
+      color: $color-secundario;
     }
 
     img {

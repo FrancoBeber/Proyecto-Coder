@@ -37,7 +37,7 @@
 
   .card {
     align-items: center;
-    background-color: rgb(2, 2, 51);
+    background-color: $color-principal;
     max-height: 500px;
 
     img {
@@ -47,19 +47,19 @@
 
     .card-body {
       .card-title {
-        color: bisque;
+        color: $color-secundario;
       }
 
       .card-text {
-        color: bisque;
+        color: $color-secundario;
       }
     }
 
     .btn-primary {
-      color: bisque;
+      color: $color-secundario;
 
       &:hover {
-        background-color: tomato;
+        background-color: $color-botones;
       }
     }
   }

@@ -34,10 +34,10 @@
   .cont_form {
     border-style: groove;
     border-color: black;
-    background-color: rgb(2, 2, 51);
+    background-color: $color-principal;
 
     label {
-      color: bisque;
+      color: $color-secundario;
     }
   }
 }

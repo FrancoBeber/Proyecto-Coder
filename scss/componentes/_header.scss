@@ -2,11 +2,11 @@
   .container-fluid {
     .fa-brands {
       font-size: 3rem;
-      color: bisque;
+      color: $color-secundario;
       transition: 0.5s;
 
       &:hover {
-        color: red;
+        color: $color-resalta;
       }
     }
   }
@@ -17,20 +17,20 @@
 
   .nav-link {
     &:hover {
-      color: red;
-      text-decoration: underline red;
+      color: $color-resalta;
+      text-decoration: underline $color-resalta;
     }
   }
 
   .navbar-toggler {
-    background-color: bisque;
+    background-color: $color-secundario;
   }
 }
 
 .color_navbar {
-  background-color: rgb(2, 2, 51);
+  background-color: $color-principal;
 }
 
 .color_item {
-  color: bisque;
+  color: $color-secundario;
 }
