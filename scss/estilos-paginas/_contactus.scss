@@ -1,0 +1,72 @@
+.grid-container {
+  text-align: center;
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+    "header"
+    "navbar"
+    "main"
+    "footer";
+  grid-template-rows: auto auto 1fr auto;
+  height: 100vh;
+
+  .header-contact {
+    grid-area: header;
+  }
+
+  .main-contact {
+    grid-area: main;
+
+    .contact__tittle {
+      font-size: 2rem;
+      font-family: "Noto Sans", sans-serif;
+      text-align: center;
+      margin: 0.5rem;
+      padding: 0.5rem;
+    }
+  }
+
+  .cont_form {
+    border-style: groove;
+    border-color: black;
+    background-color: rgb(2, 2, 51);
+
+    label {
+      color: bisque;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .grid-container {
+    text-align: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-areas:
+      "header header"
+      "navbar navbar"
+      "main main"
+      "footer footer";
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: auto auto;
+    height: 100vh;
+
+    .main-contact {
+      .contact__tittle {
+        font-size: 3rem;
+        margin: 0.8rem;
+        padding: 0.8rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-contact {
+    .contact__tittle {
+      font-size: 4rem;
+      margin: 1rem;
+      padding: 1rem;
+    }
+  }
+}

@@ -1,0 +1,83 @@
+.grid-container {
+  text-align: center;
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+    "header"
+    "navbar"
+    "main"
+    "footer";
+  grid-template-rows: auto auto 1fr auto;
+  height: 100vh;
+
+  .header-signin {
+    grid-area: header;
+  }
+
+  .main-sig {
+    grid-area: main;
+    font-family: "Noto Sans", sans-serif;
+    text-align: justify;
+    font-size: 0.8rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+
+    .titulo__signin {
+      font-family: "Noto Sans", sans-serif;
+      font-size: 2rem;
+      text-align: center;
+      padding: 0.5rem;
+      margin: 0.5rem;
+    }
+  }
+
+  .cont_form {
+    border-style: groove;
+    border-color: black;
+    background-color: rgb(2, 2, 51);
+
+    label {
+      color: bisque;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .grid-container {
+    text-align: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-areas:
+      "header header"
+      "navbar navbar"
+      "main main"
+      "footer footer";
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: auto auto;
+    height: 100vh;
+
+    .main-sig {
+      .titulo__signin {
+        font-size: 3rem;
+        padding: 0.8rem;
+        margin: 0.8rem;
+        animation-name: titulo_animado;
+        animation-duration: 3s;
+        animation-delay: 2s;
+        animation-iteration-count: 1;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-sig {
+    .titulo__signin {
+      .titulo__signin {
+        font-size: 4rem;
+        padding: 1rem;
+        margin: 1rem;
+      }
+    }
+  }
+}
