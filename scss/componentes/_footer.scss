@@ -1,6 +1,6 @@
 .foot {
   grid-area: footer;
-  background-color: $color-principal;
+  background-color: map-get($colors, color-principal);
 
   img {
     height: 2rem;
@@ -10,7 +10,7 @@
 
   p {
     font-family: "Noto Sans", sans-serif;
-    color: white;
+    color: map-get($colors, color-secundario);
     font-size: 1rem;
   }
 }
@@ -25,15 +25,15 @@
     align-items: center;
     background-image: linear-gradient(
       to top,
-      white,
-      $color-principal 50%,
-      $color-principal
+      map-get($colors, auxiliar),
+      map-get($colors, color-principal) 50%,
+      map-get($colors, color-principal)
     );
 
     p {
       display: inline-block;
       font-size: 1.2rem;
-      color: $color-secundario;
+      color: map-get($colors, color-secundario);
     }
 
     img {

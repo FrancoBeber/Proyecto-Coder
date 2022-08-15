@@ -28,11 +28,11 @@
 
   .cont_form {
     border-style: groove;
-    border-color: black;
-    background-color: $color-principal;
+    border-color: map-get($colors, auxiliar2);
+    background-color: map-get($colors, color-principal);
 
     label {
-      color: $color-secundario;
+      color: map-get($colors, color-secundario);
     }
   }
 }

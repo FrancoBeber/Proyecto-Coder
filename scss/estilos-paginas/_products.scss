@@ -37,7 +37,7 @@
 
   .card {
     align-items: center;
-    background-color: $color-principal;
+    background-color: map-get($colors, color-principal);
     max-height: 500px;
 
     img {
@@ -47,19 +47,19 @@
 
     .card-body {
       .card-title {
-        color: $color-secundario;
+        color: map-get($colors, color-secundario);
       }
 
       .card-text {
-        color: $color-secundario;
+        color: map-get($colors, color-secundario);
       }
     }
 
     .btn-primary {
-      color: $color-secundario;
+      color: map-get($colors, color-secundario);
 
       &:hover {
-        background-color: $color-botones;
+        background-color: map-get($colors, color-botones);
       }
     }
   }

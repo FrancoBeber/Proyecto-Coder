@@ -2,11 +2,11 @@
   .container-fluid {
     .fa-brands {
       font-size: 3rem;
-      color: $color-secundario;
+      color: map-get($colors, color-secundario);
       transition: 0.5s;
 
       &:hover {
-        color: $color-resalta;
+        color: map-get($colors, color-resalta);
       }
     }
   }
@@ -17,20 +17,20 @@
 
   .nav-link {
     &:hover {
-      color: $color-resalta;
-      text-decoration: underline $color-resalta;
+      color: map-get($colors, color-resalta);
+      text-decoration: underline map-get($colors, color-resalta);
     }
   }
 
   .navbar-toggler {
-    background-color: $color-secundario;
+    background-color: map-get($colors, color-secundario);
   }
 }
 
 .color_navbar {
-  background-color: $color-principal;
+  background-color: map-get($colors, color-principal);
 }
 
 .color_item {
-  color: $color-secundario;
+  color: map-get($colors, color-secundario);
 }

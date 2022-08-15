@@ -54,7 +54,7 @@
     /* background: linear-gradient(45deg, red, blue); */
 
     .mainIndex {
-      background-color: white;
+      background-color: map-get($colors, auxiliar);
       margin: 0;
       padding: 0;
       /* background: linear-gradient(45deg, red, blue); */
