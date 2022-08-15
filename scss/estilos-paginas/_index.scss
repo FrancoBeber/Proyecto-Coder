@@ -17,6 +17,10 @@
   .mainIndex {
     grid-area: main;
 
+    h1 {
+      @include titles(0.7rem, 0rem, 1.5rem, center, bold);
+    }
+
     img {
       width: 25rem;
       height: 25rem;
@@ -60,15 +64,7 @@
       /* background: linear-gradient(45deg, red, blue); */
 
       h1 {
-        text-align: center;
-        margin: 1rem;
-        padding: 1rem;
-        font-size: 3rem;
-        font-family: "Noto Sans", sans-serif;
-        animation-name: titulo_animado;
-        animation-duration: 3s;
-        animation-delay: 2s;
-        animation-iteration-count: 1;
+        @include titles(1rem, 1rem, 3rem, center, bold);
       }
 
       p {
@@ -96,7 +92,7 @@
   .grid-container {
     .mainIndex {
       h1 {
-        font-size: 4rem;
+        @include titles(1rem, 1rem, 4rem, center, bold);
       }
 
       p {

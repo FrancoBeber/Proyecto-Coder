@@ -18,9 +18,7 @@
     grid-area: main;
 
     h1 {
-      text-align: center;
-      margin-top: 0.7rem;
-      margin-bottom: 1rem;
+      @include titles(0.7rem, 0rem, 2rem, center, bold);
     }
 
     .container-fluid {
@@ -29,8 +27,7 @@
       }
 
       .texto__productos {
-        font-family: "Noto Sans", sans-serif;
-        font-size: 2rem;
+        @include titles(0.7rem, 0rem, 2rem, center, bold);
       }
     }
   }
@@ -82,35 +79,29 @@
     .main__products {
       .container-fluid {
         .texto__productos {
-          font-size: 3rem;
+          @include titles(1rem, 0rem, 3rem, center, bold);
         }
       }
 
       h1 {
-        text-align: center;
-        margin-top: 1rem;
-        margin-bottom: 2rem;
-        animation-name: titulo_animado;
-        animation-duration: 3s;
-        animation-delay: 2s;
-        animation-iteration-count: 1;
+        @include titles(1rem, 0rem, 3rem, center, bold);
       }
     }
   }
 }
 
-@media screen and (min-width: 768px) {
-  .main__products {
-    .container-fluid {
-      .texto__productos {
-        font-size: 4rem;
+@media screen and (min-width: 1024px) {
+  .grid-container {
+    .main__products {
+      .container-fluid {
+        .texto__productos {
+          @include titles(2rem, 0rem, 4rem, center, bold);
+        }
       }
-    }
 
-    h1 {
-      text-align: center;
-      margin-top: 2rem;
-      margin-bottom: 3rem;
+      h1 {
+        @include titles(2rem, 0rem, 4rem, center, bold);
+      }
     }
   }
 }

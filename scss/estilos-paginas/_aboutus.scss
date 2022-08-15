@@ -23,11 +23,7 @@
     padding: 0.5rem;
 
     .titulo__about {
-      font-family: "Noto Sans", sans-serif;
-      text-align: center;
-      margin: 0.5rem;
-      padding: 0.5rem;
-      font-size: 2rem;
+      @include titles(0.5rem, 0.5rem, 2rem, center, bold);
     }
 
     img {
@@ -54,13 +50,7 @@
       padding: 0.8rem;
 
       .titulo__about {
-        margin: 0.8rem;
-        padding: 0.8rem;
-        font-size: 4rem;
-        animation-name: titulo_animado;
-        animation-duration: 3s;
-        animation-delay: 2s;
-        animation-iteration-count: 1;
+        @include titles(0.8rem, 0.8rem, 3rem, center, bold);
       }
 
       p {
@@ -69,27 +59,25 @@
       }
     }
   }
-}
 
-@media screen and (min-width: 1024px) {
-  .main__about {
-    font-size: 1.3rem;
-    margin: 1rem;
-    padding: 1rem;
-
-    .titulo__about {
+  @media screen and (min-width: 1024px) {
+    .main__about {
+      font-size: 1.3rem;
       margin: 1rem;
       padding: 1rem;
-      font-size: 5rem;
-    }
 
-    img {
-      margin: 1rem;
-    }
+      .titulo__about {
+        @include titles(1rem, 1rem, 4rem, center, bold);
+      }
 
-    p {
-      margin: 1rem;
-      font-size: 1.3rem;
+      img {
+        margin: 1rem;
+      }
+
+      p {
+        margin: 1rem;
+        font-size: 1.3rem;
+      }
     }
   }
 }

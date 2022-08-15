@@ -1,0 +1,16 @@
+@mixin aboutUsTitle($text-align) {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 2rem;
+  text-align: $text-align;
+}
+
+@mixin titles($margin, $padding, $font-size, $text-align, $font-weight) {
+  font-family: "Noto Sans", sans-serif;
+  margin: $margin;
+  padding: $padding;
+  font-size: $font-size;
+  text-align: $text-align;
+  font-weight: $font-weight;
+}

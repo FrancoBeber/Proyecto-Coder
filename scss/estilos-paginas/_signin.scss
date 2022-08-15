@@ -23,11 +23,7 @@
     padding: 0.5rem;
 
     .titulo__signin {
-      font-family: "Noto Sans", sans-serif;
-      font-size: 2rem;
-      text-align: center;
-      padding: 0.5rem;
-      margin: 0.5rem;
+      @include titles(0.5rem, 0.5rem, 2rem, center, bold);
     }
   }
 
@@ -58,25 +54,17 @@
 
     .main-sig {
       .titulo__signin {
-        font-size: 3rem;
-        padding: 0.8rem;
-        margin: 0.8rem;
-        animation-name: titulo_animado;
-        animation-duration: 3s;
-        animation-delay: 2s;
-        animation-iteration-count: 1;
+        @include titles(0.8rem, 0.8rem, 3rem, center, bold);
       }
     }
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .main-sig {
-    .titulo__signin {
+  .grid-container {
+    .main-sig {
       .titulo__signin {
-        font-size: 4rem;
-        padding: 1rem;
-        margin: 1rem;
+        @include titles(1rem, 1rem, 4rem, center, bold);
       }
     }
   }
