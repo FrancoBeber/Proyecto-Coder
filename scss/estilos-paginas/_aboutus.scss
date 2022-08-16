@@ -26,11 +26,12 @@
       @include titles(0.5rem, 0.5rem, 2rem, center, bold);
     }
 
+    h2 {
+      @include titles(0.5rem, 0.5rem, 1rem, center, bold);
+    }
+
     img {
-      margin: 0.5rem;
-      padding: 0.5rem;
-      width: 90%;
-      height: 100%;
+      @include images(0.5rem, 0.5rem, 90%, 100%);
     }
 
     .div__img {
@@ -38,8 +39,7 @@
     }
 
     p {
-      margin: 0.5rem;
-      font-size: 0.8rem;
+      @include parraf(0.8rem, 0.5rem, 0rem);
     }
   }
 
@@ -53,9 +53,12 @@
         @include titles(0.8rem, 0.8rem, 3rem, center, bold);
       }
 
+      h2 {
+        @include titles(0.8rem, 0.8rem, 2rem, center, bold);
+      }
+
       p {
-        margin: 0.8rem;
-        font-size: 1rem;
+        @include parraf(1rem, 0.8rem, 0rem);
       }
     }
   }
@@ -71,12 +74,15 @@
       }
 
       img {
-        margin: 1rem;
+        @include images(1rem, 0.5rem, 90%, 100%);
+      }
+
+      h2 {
+        @include titles(0.8rem, 0.8rem, 2.5rem, center, bold);
       }
 
       p {
-        margin: 1rem;
-        font-size: 1.3rem;
+        @include parraf(1.3rem, 1rem, 0rem);
       }
     }
   }
