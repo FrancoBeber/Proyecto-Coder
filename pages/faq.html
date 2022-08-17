@@ -73,47 +73,193 @@
       <!-- Titulo principal --------->
       <h1 class="tittle__faq">Preguntas Frecuentes</h1>
       <!-- Fin titulo principal --------->
-      <h3>¿Pregunta Número 1?</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-        beatae ad cumque eum mollitia. Rem tenetur vero a fugit nostrum facere
-        autem facilis, eligendi ratione est vel. Exercitationem, magni pariatur.
-      </p>
-      <h3>¿Pregunta Número 2?</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-        perspiciatis ab cum rem, fugiat saepe quisquam architecto laborum
-        voluptatem nisi aliquam eligendi dicta, dolorem ipsa amet perferendis
-        corporis non illum?
-      </p>
-      <h3>¿Pregunta Número 3?</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-        deserunt quibusdam odit perferendis fuga, quos cumque modi quas adipisci
-        aliquam soluta sed ipsam corporis libero, sunt fugiat itaque, rem
-        voluptatum.
-      </p>
-      <h3>¿Pregunta Número 4?</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quam
-        animi, aut tempora omnis, possimus ad voluptatem perferendis, asperiores
-        corrupti ipsa dolorum fuga officia consectetur accusantium? Quas
-        excepturi veritatis odit.
-      </p>
-      <h3>¿Pregunta Número 5?</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quam
-        animi, aut tempora omnis, possimus ad voluptatem perferendis, asperiores
-        corrupti ipsa dolorum fuga officia consectetur accusantium? Quas
-        excepturi veritatis odit.
-      </p>
-      <h3>¿Pregunta Número 6?</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quam
-        animi, aut tempora omnis, possimus ad voluptatem perferendis, asperiores
-        corrupti ipsa dolorum fuga officia consectetur accusantium? Quas
-        excepturi veritatis odit.
-      </p>
+
+      <!-- Preguntas en bootstrap (acordeon) -->
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              <strong>¿Cómo puedo saber el estado de mi envío?</strong>
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Para saber el estado de tu envío, consultanos madiante un mensaje
+              de texto al siguiente Whatsapp: <strong>343 5465 1293</strong>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              <strong>Medios de envío disponibles</strong>
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Actualmente realizamos envíos por correo OCA, Andreani y Correo
+              Argentino. También podes retirar tu producto en sucursal.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              <strong>Problemas con el envío</strong>
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Ante todo lamentamos cualquier inconveniente que hayas tenido,
+              para darte una atención más personalizada te sugerimos contactarte
+              por nuestro canal de WhatsApp al: <strong>343 5465 1293</strong>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              <strong>Estado de tu reparación</strong>
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Para saber el estado de tu reparación, consultanos madiante un
+              mensaje de texto al siguiente Whatsapp:
+              <strong>343 5465 1293</strong>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              <strong>¿Querés hacer compras mayoristas?</strong>
+            </button>
+          </h2>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Solicita nuestro catalogo online a
+              <strong>contacto@NombreEmpresa.com</strong> o madiante un mensaje
+              de texto al siguiente Whatsapp:
+              <strong>343 5465 1293</strong>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingseven">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseseven"
+              aria-expanded="false"
+              aria-controls="collapseseven"
+            >
+              <strong>Facturacíon</strong>
+            </button>
+          </h2>
+          <div
+            id="collapseseven"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingseven"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              En todas las compras efectuadas en la web, brindamos sin excepción
+              alguna, la factura de compra. Una vez que realiza y abona el
+              pedido, enviamos a tu dirección de correo electrónico la factura
+              correspondiente.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingsix">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsesix"
+              aria-expanded="false"
+              aria-controls="collapsesix"
+            >
+              <strong>¿Cuáles son los medios de pago disponibles?</strong>
+            </button>
+          </h2>
+          <div
+            id="collapsesix"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingsix"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>Tarjeta de Crédito</strong> hasta 12 cuotas.
+              <strong>Tarjeta de Débito</strong>. <strong>Efectivo</strong> en
+              cualquier sucursal de Pago Fácil o Rapipago.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fin preguntas -->
     </main>
     <!-- Inicio footer -->
     <footer class="foot">
