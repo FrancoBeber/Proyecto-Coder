@@ -53,6 +53,8 @@
     height: 100vh;
 
     .main-sig {
+      margin: 0.8rem;
+      padding: 0.8rem;
       .titulo__signin {
         @include titles(0.8rem, 0.8rem, 3rem, center, bold);
       }
@@ -63,6 +65,8 @@
 @media screen and (min-width: 1024px) {
   .grid-container {
     .main-sig {
+      margin: 1rem;
+      padding: 1rem;
       .titulo__signin {
         @include titles(1rem, 1rem, 4rem, center, bold);
       }

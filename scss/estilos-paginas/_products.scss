@@ -16,9 +16,11 @@
 
   .main__products {
     grid-area: main;
+    margin: 0.5rem;
+    padding: 0.5rem;
 
     h1 {
-      @include titles(0.7rem, 0rem, 2rem, center, bold);
+      @include titles(0.5rem, 0.5rem, 2rem, center, bold);
     }
 
     .container-fluid {
@@ -77,14 +79,16 @@
     height: 100vh;
 
     .main__products {
+      margin: 0.8rem;
+      padding: 0.8rem;
       .container-fluid {
         .texto__productos {
-          @include titles(1rem, 0rem, 3rem, center, bold);
+          @include titles(0.8rem, 0.8rem, 3rem, center, bold);
         }
       }
 
       h1 {
-        @include titles(1rem, 0rem, 3rem, center, bold);
+        @include titles(0.8rem, 0.8rem, 3rem, center, bold);
       }
     }
   }
@@ -93,14 +97,16 @@
 @media screen and (min-width: 1024px) {
   .grid-container {
     .main__products {
+      margin: 1rem;
+      padding: 1rem;
       .container-fluid {
         .texto__productos {
-          @include titles(2rem, 0rem, 4rem, center, bold);
+          @include titles(1rem, 1rem, 4rem, center, bold);
         }
       }
 
       h1 {
-        @include titles(2rem, 0rem, 4rem, center, bold);
+        @include titles(1rem, 1rem, 4rem, center, bold);
       }
     }
   }
