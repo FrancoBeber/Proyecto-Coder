@@ -28,6 +28,7 @@
 
     h2 {
       @include titles(0.5rem, 0.5rem, 1rem, center, bold);
+      color: $color-secundario;
     }
 
     img {
@@ -40,6 +41,7 @@
 
     p {
       @include parraf(0.8rem, 0.5rem, 0rem);
+      color: $color-secundario;
     }
 
     .card-img-top {
@@ -66,10 +68,12 @@
 
       h2 {
         @include titles(0.8rem, 0.8rem, 2rem, center, bold);
+        color: $color-secundario;
       }
 
       p {
         @include parraf(1rem, 0.8rem, 0rem);
+        color: $color-secundario;
       }
 
       .card-img-top {
@@ -95,10 +99,12 @@
 
       h2 {
         @include titles(0.8rem, 0.8rem, 2.5rem, center, bold);
+        color: $color-secundario;
       }
 
       p {
         @include parraf(1.3rem, 1rem, 0rem);
+        color: $color-secundario;
       }
     }
   }
