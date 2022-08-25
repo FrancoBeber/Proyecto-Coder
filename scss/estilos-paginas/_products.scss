@@ -1,3 +1,4 @@
+/*ESTILOS PAGINA DE PRODUCTOS*/
 .grid-container {
   text-align: center;
   display: grid;
@@ -63,7 +64,7 @@
     }
   }
 }
-
+/*MEDIA QUERY 768px*/
 @media screen and (min-width: 768px) {
   .grid-container {
     text-align: center;
@@ -93,7 +94,7 @@
     }
   }
 }
-
+/*MEDIA QUERY 1024px*/
 @media screen and (min-width: 1024px) {
   .grid-container {
     .main__products {

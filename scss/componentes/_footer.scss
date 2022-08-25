@@ -1,3 +1,4 @@
+/*ESTILOS DEL FOOTER*/
 .foot {
   grid-area: footer;
   background-color: map-get($colors, color-principal);
@@ -14,7 +15,7 @@
     font-size: 1rem;
   }
 }
-
+/*MEDIA QUERY 768px*/
 @media screen and (min-width: 768px) {
   .foot {
     background-position: center center;
@@ -44,7 +45,7 @@
     }
   }
 }
-
+/*MEDIA QUERY 1024px*/
 @media screen and (min-width: 1024px) {
   .foot {
     p {

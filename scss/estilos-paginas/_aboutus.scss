@@ -1,3 +1,4 @@
+/*ESTILOS PAGINA ABOUT US*/
 .grid-container {
   text-align: center;
   display: grid;
@@ -62,7 +63,7 @@
       }
     }
   }
-
+  /*MEDIA QUERY 768px*/
   @media screen and (min-width: 768px) {
     .main__about {
       font-size: 1rem;
@@ -95,7 +96,7 @@
       }
     }
   }
-
+  /*MEDIA QUERY 1024px*/
   @media screen and (min-width: 1024px) {
     .main__about {
       font-size: 1.3rem;

@@ -1,11 +1,8 @@
+/*ESTILOS GLOBALES*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  background-image: url(../assets/fondos/vintage-grunge-blue-concrete-texture-wall-background-with-vignette.jpg);
 }
 
 html {
@@ -16,6 +13,7 @@ body {
   font-size: 1.2rem;
   min-height: 100%;
   font-family: "Noto Sans", sans-serif;
+  background-image: url(../assets/fondos/vintage-grunge-blue-concrete-texture-wall-background-with-vignette.jpg);
 }
 
 .text-princ {
