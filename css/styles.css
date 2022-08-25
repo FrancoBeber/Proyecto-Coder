@@ -210,6 +210,10 @@ body {
   padding: 0rem;
   color: bisque;
 }
+.grid-container .main__about .card-body .card-text {
+  color: bisque;
+  font-size: 0.6rem;
+}
 .grid-container .main__about .card-img-top {
   max-width: 80px;
   max-height: 80px;
@@ -251,6 +255,10 @@ body {
     max-width: 150px;
     max-height: 150px;
   }
+  .grid-container .main__about .card-body .card-text {
+    color: bisque;
+    font-size: 0.85rem;
+  }
 }
 @media screen and (min-width: 1024px) {
   .grid-container .main__about {
@@ -287,6 +295,10 @@ body {
     margin: 1rem;
     padding: 0rem;
     color: bisque;
+  }
+  .grid-container .main__about .card-body .card-text {
+    color: bisque;
+    font-size: 1rem;
   }
 }
 
